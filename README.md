@@ -2,7 +2,7 @@
 
 A meeting recorder that transcribes on your own computer, for macOS and Windows. This repository holds release builds only.
 
-There is no release here yet. The first one will be v1.1.0.
+The latest release is [v1.1.0](../../releases/latest).
 
 ## Install on a Mac
 
