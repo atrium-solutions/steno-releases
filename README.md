@@ -2,7 +2,7 @@
 
 A meeting recorder that transcribes on your own computer, for macOS and Windows. This repository holds release builds only.
 
-The latest release is [v1.1.0](../../releases/latest).
+The latest release is [v1.2.0](../../releases/latest).
 
 ## Install on a Mac
 
@@ -15,7 +15,7 @@ On first use Steno asks for two permissions:
 - **Microphone**, to record you.
 - **Screen Recording**, which macOS requires for recording the other people on a call. Steno records their audio only, never your screen.
 
-To upgrade, replace `Steno.app` with the new one.
+From 1.2.0, Steno updates itself: when a new version is ready it shows "Restart to update" (never during a recording). Settings → Updates turns the checks off. To upgrade from 1.1.0 or earlier, replace `Steno.app` with the new one once.
 
 ## Install on Windows
 
@@ -23,7 +23,7 @@ To upgrade, replace `Steno.app` with the new one.
 2. Run it. Steno installs for the signed-in user, without administrator rights.
 3. Steno is not code-signed, so Windows SmartScreen asks once: choose **More info → Run anyway**.
 
-To upgrade, run the new installer over the old one. For IT installs, `Steno-<version>-Windows-x86_64-setup.exe /S` installs silently. Uninstalling keeps your meetings.
+From 1.2.0, Steno updates itself ("Restart to update"); from 1.1.0 or earlier, run the new installer over the old one once. For IT installs, `Steno-<version>-Windows-x86_64-setup.exe /S` installs silently. Uninstalling keeps your meetings.
 
 ## What it is
 
